@@ -7,7 +7,7 @@ Tracking those broadcasts provides a proxy for seeing how many devices/people ar
 The microchip keeps track of the number of devices in the room, and sends that to openutd.com which displays the count.
 No MAC addresses are sent in the web request, as a safety precaution. I didn't do the web development, that was the other members in the hackathon group. I worked with the microchip to provide data for the website.
 
-[openutd.com](https://www.openutd.com "Our Website!")
+[openutd.com](https://openutd.com "Our Website!")
 
 Captures a stream of mac addresses, and each hit of the last two character code adds a drop to a bucket labeled with that code
 Over time, the buckets leak and lose their drops. This means that if there is an address that is just noise, the drop will go in and come out later.
